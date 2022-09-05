@@ -1,0 +1,54 @@
+body{background-color: rgb(182, 178, 178);}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1 {text-align: center;background-color: rgb(50, 50, 50);}
+.back {
+  background-color: rgb(48, 55, 55);
+  border: 5px solid rgb(3, 166, 166);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;width: 450px;height: 250px;;
+}
+.back img{width: 70px;
+    height: 40px;}
+.p {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+}
+.front {
+  background-color: rgb(47, 49, 49);
+  border: 3px solid rgb(3, 159, 159);
+  width: 450px;height: 250px;
+}
+.upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.upperleft{display: flex;flex-direction: row;}
+.pl{display: flex;flex-direction: column;padding: 0%;margin-left: 10px;}
+
+.lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;margin-top: 50px;
+}
+.upperleft img {
+  width: 70px;
+  height: 40px;
+  margin-top: 10px;
+}
+.lowerleft img {
+  width: 90px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 5px;
+}
